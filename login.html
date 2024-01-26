@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-image: url(Gambar/bc.jpg);
+    }
+  </style>
+</head>
+<body>
+  <section id="header">
+      <a href="#"><img src="#" class="logo" alt=""></a>
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+                <li class="login">
+                    <a class="nav-link active" href="login.html"><i class='bx bx-user'></i></a>
+                    <li class="cart">
+                      <!-- <a class="nav-link" href="#"><i class='bx bx-shopping-bag'></i></a> -->
+                    </li>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </section>
+  <form action="" method="POST">
+    <table>
+        <tr>
+            <td class="label">Email</td>
+            <td><input type="text" name="email" class="input" value=""/></td>
+        </tr>
+        <tr>
+            <td class="label">Password</td>
+            <td>
+                <input type="password" name="password" class="input" />
+                <br/>
+                Lupa Password? <a href=''>Silahkan</a>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="login" value="Login" class="tbl-biru"/></td>
+        </tr>
+    </table>
+</form>
